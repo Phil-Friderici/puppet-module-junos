@@ -1,0 +1,7 @@
+fixtures:
+  repositories:
+    'netdev_stdlib':
+      repo: 'git://github.com/puppetlabs/netdev_stdlib.git'
+      ref:  'v0.10.0'
+  symlinks:
+    junos: "#{source_dir}"

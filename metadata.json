@@ -1,0 +1,32 @@
+{
+  "name":         "Phil-Friderici-junos",
+  "version":      "0.0.1",
+  "author":       "Phil-Friderici",
+  "summary":      "Manage Juniper Switches",
+  "license":      "Apache-2.0",
+  "source":       "git@github.com:Phil-Friderici/puppet-module-junos.git",
+  "project_page": "https://github.com/Phil-Friderici/puppet-module-junos",
+  "issues_url":   "https://github.com/Phil-Friderici/puppet-module-junos/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "JUNOS",
+      "operatingsystemrelease": [
+        "13.2X51-D35.3"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.2.0 < 5.0.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0 < 5.0.0"
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs/netdev_stdlib","version_requirement":">= 0.10.0"},
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.7.0 < 6.0.0"}
+  ]
+}
